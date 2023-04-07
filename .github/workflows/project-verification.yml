@@ -25,7 +25,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           distribution: zulu
-          java-version: 11
+          java-version: 17
 
       - name: Verify Modules
         run: $GITHUB_WORKSPACE/.github/scripts/verify_integration_test_modules.main.kts
